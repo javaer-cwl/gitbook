@@ -12,7 +12,7 @@
 * [Docker](gong-ju/docker/README.md)
   * [🏹 安装](gong-ju/docker/an-zhuang.md)
 * [Nginx](gong-ju/nginx.md)
-* [Redis](gong-ju/redis/README.md)
+* [🔥 Redis](gong-ju/redis/README.md)
   * [安装](gong-ju/redis/an-zhuang.md)
   * [高可用](gong-ju/redis/gao-ke-yong.md)
   * [Redis分布式锁](gong-ju/redis/redis-fen-bu-shi-suo.md)
