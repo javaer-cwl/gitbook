@@ -2,22 +2,22 @@
 
 * [Welcome](README.md)
 
-## Getting Started
+## BLOG
 
-* [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
+* [Quickstart](blog/quickstart.md)
+* [Publish your docs](blog/publish-your-docs.md)
 
-## 工具
+## TOOL
 
-* [Docker](gong-ju/docker/README.md)
-  * [🏹 安装](gong-ju/docker/an-zhuang.md)
-* [Nginx](gong-ju/nginx.md)
-* [🔥 Redis](gong-ju/redis/README.md)
-  * [安装](gong-ju/redis/an-zhuang.md)
-  * [高可用](gong-ju/redis/gao-ke-yong.md)
-  * [Redis分布式锁](gong-ju/redis/redis-fen-bu-shi-suo.md)
-  * [持久化机制](gong-ju/redis/chi-jiu-hua-ji-zhi.md)
-  * [Redis异常](gong-ju/redis/redis-yi-chang.md)
-* [MYSQL](gong-ju/mysql.md)
-* [Kafka](gong-ju/kafka.md)
-* [MongoDB](gong-ju/mongodb.md)
+* [Docker](tool/docker/README.md)
+  * [🏹 安装](tool/docker/an-zhuang.md)
+* [Nginx](tool/nginx.md)
+* [🔥 Redis](tool/redis/README.md)
+  * [安装](tool/redis/an-zhuang.md)
+  * [高可用](tool/redis/gao-ke-yong.md)
+  * [Redis分布式锁](tool/redis/redis-fen-bu-shi-suo.md)
+  * [持久化机制](tool/redis/chi-jiu-hua-ji-zhi.md)
+  * [Redis异常](tool/redis/redis-yi-chang.md)
+* [MYSQL](tool/mysql.md)
+* [Kafka](tool/kafka.md)
+* [MongoDB](tool/mongodb.md)
