@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🍈 你好](README.md)
+* [🍈 Hello](README.md)
 
 ## BLOG
 
