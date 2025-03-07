@@ -13,7 +13,7 @@
    *   打开 PowerShell（管理员权限），运行以下命令：
 
        ```powershell
-       powershelldism.exe /online /enable-feature /featurename:Microsoft-Hyper-V /all /norestartwsl --install
+       dism.exe /online /enable-feature /featurename:Microsoft-Hyper-V /all /norestartwsl --install
        ```
    * 重启电脑。
 2. **下载 Docker Desktop**
@@ -26,7 +26,7 @@
    *   打开 PowerShell 或命令提示符，运行以下命令：
 
        ```bash
-       bashdocker --version
+       docker --version
        ```
    * 如果显示 Docker 版本信息，说明安装成功。
 
@@ -50,7 +50,7 @@
    *   打开终端，运行以下命令：
 
        ```bash
-       bashdocker --version
+       docker --version
        ```
    * 如果显示 Docker 版本信息，说明安装成功。
 
@@ -68,49 +68,49 @@
 1.  **卸载旧版本（可选）**
 
     ```bash
-    bashsudo apt-get remove docker docker-engine docker.io containerd runc
+    sudo apt-get remove docker docker-engine docker.io containerd runc
     ```
 2.  **更新包索引**
 
     ```bash
-    bashsudo apt-get update
+    sudo apt-get update
     ```
 3.  **安装依赖包**
 
     ```bash
-    bashsudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release
+    sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release
     ```
 4.  **添加 Docker 官方 GPG 密钥**
 
     ```bash
-    bashcurl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
     ```
 5.  **设置稳定版仓库**
 
     ```bash
-    bashecho "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
     ```
 6.  **安装 Docker Engine**
 
     ```bash
-    bashsudo apt-get updatesudo apt-get install docker-ce docker-ce-cli containerd.io
+    sudo apt-get updatesudo apt-get install docker-ce docker-ce-cli containerd.io
     ```
 7.  **启动 Docker 服务**
 
     ```bash
-    bashsudo systemctl start dockersudo systemctl enable docker
+    sudo systemctl start dockersudo systemctl enable docker
     ```
 8.  **验证安装**
 
     ```bash
-    bashdocker --version
+    docker --version
     ```
 
     * 如果显示 Docker 版本信息，说明安装成功。
 9.  **非 root 用户使用 Docker（可选）**
 
     ```bash
-    bashsudo usermod -aG docker $USER
+    sudo usermod -aG docker $USER
     ```
 
     * 注销并重新登录，使更改生效。
@@ -122,7 +122,7 @@
 在任意系统上，运行以下命令验证 Docker 是否正常工作：
 
 ```bash
-bash docker run hello-world
+docker run hello-world
 ```
 
 如果看到 "Hello from Docker!" 的消息，说明 Docker 安装并运行成功。
