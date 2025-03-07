@@ -30,8 +30,6 @@
        ```
    * 如果显示 Docker 版本信息，说明安装成功。
 
-***
-
 ### **二、macOS 系统安装 Docker**
 
 #### **1. 系统要求**
@@ -53,8 +51,6 @@
        docker --version
        ```
    * 如果显示 Docker 版本信息，说明安装成功。
-
-***
 
 ### **三、Linux 系统安装 Docker**
 
@@ -119,7 +115,7 @@
 
 ### 四、Linux脚本安装
 
-### 1. Ubuntu安装
+#### 1. Ubuntu安装
 
 ```bash
  curl -fsSL https://test.docker.com -o test-docker.sh
@@ -135,8 +131,6 @@ curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 #### 3. 验证
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-***
 
 ### **五、验证 Docker 是否正常工作**
 
