@@ -1,10 +1,11 @@
 ---
 icon: hand-wave
-cover: https://gitbookio.github.io/onboarding-template-images/header.png
+cover: >-
+  https://images.unsplash.com/photo-1738429829928-a5c9e6245322?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEzMjc5MDd8&ixlib=rb-4.0.3&q=85
 coverY: 0
 ---
 
-# Welcome
+# 🍈 Hello
 
 Welcome to the GitBook Starter Template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
 
