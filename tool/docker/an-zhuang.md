@@ -115,9 +115,30 @@
 
     * 注销并重新登录，使更改生效。
 
+
+
+### 四、Linux脚本安装
+
+### 1. Ubuntu安装
+
+```bash
+ curl -fsSL https://test.docker.com -o test-docker.sh
+ sudo sh test-docker.sh
+```
+
+#### 2. Centos安装
+
+```bash
+curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
+```
+
+#### 3. 验证
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
-### **四、验证 Docker 是否正常工作**
+### **五、验证 Docker 是否正常工作**
 
 在任意系统上，运行以下命令验证 Docker 是否正常工作：
 
