@@ -4,35 +4,38 @@ icon: pen-to-square
 
 # Docker
 
-GitBook has a powerful block-based editor that allows you to seamlessly create, update, and enhance your content.
 
-<figure><img src="https://gitbookio.github.io/onboarding-template-images/editor-hero.png" alt=""><figcaption></figcaption></figure>
 
-### Writing content
+### 一、引言
 
-GitBook offers a range of block types for you to add to your content inline — from simple text and tables, to code blocks and more. These elements will make your pages more useful to readers, and offer extra information and context.
+在当今的软件开发领域，随着微服务架构的盛行和持续集成/持续部署（CI/CD）理念的深入人心，如何高效、一致地打包、分发和运行应用程序成为了一个关键问题。Docker，作为容器化技术的代表，为开发者提供了一套轻量级、可移植、自包含的解决方案，彻底改变了软件开发和运维的方式。
 
-Either start typing below, or press `/` to see a list of the blocks you can insert into your page.
+### 二、Docker的定义与核心概念
 
-### Add a new block
+#### 1. Docker是什么？
 
-{% stepper %}
-{% step %}
-### Open the insert block menu
+Docker是一个开源的容器化平台，它允许开发者将应用程序及其所有依赖项打包到一个称为“容器”的标准化单元中。这个容器可以在任何支持Docker的环境中一致地运行，无论是在开发者的本地机器、测试服务器还是生产环境的云主机上。
 
-Press `/` on your keyboard to open the insert block menu.
-{% endstep %}
+#### 2. Docker的核心概念
 
-{% step %}
-### Search for the block you need&#x20;
+* ​**镜像（Image）​**：Docker镜像是一个轻量级、独立的、可执行的软件包，它包含运行某个软件所需的所有内容，包括代码、运行时环境、库、环境变量和配置文件等。镜像是容器的基础，用户可以从现有的镜像创建新的镜像，或者基于自己的需求定制镜像。
+* ​**容器（Container）​**：容器是镜像的运行实例。通过镜像创建容器后，容器就包含了运行应用程序所需的所有依赖和环境设置。容器之间相互隔离，拥有独立的文件系统、网络和进程空间，这保证了应用的独立性和安全性。
+* ​**仓库（Repository）​**：仓库是用来存储和管理Docker镜像的地方。Docker Hub是最常用的公共仓库，包含了大量由社区和企业贡献的镜像，用户也可以创建自己的私有仓库来存储内部使用的镜像。
 
-Try searching for “Stepper”, for exampe, to insert the stepper block.
-{% endstep %}
+### 三、Docker的优势
 
-{% step %}
-### Insert and edit your block
+#### 1. 一致性
 
-Click or press Enter to insert your block. From here, you’ll be able to edit it as needed.
-{% endstep %}
-{% endstepper %}
+* 在不同的环境（开发、测试、生产）中，使用Docker容器可以确保应用程序的运行环境完全一致。开发人员在本地构建和测试的容器，可以直接部署到任何其他支持Docker的环境中，避免了“在我的机器上可以运行”（It works on my machine）这种常见的环境差异问题。
 
+#### 2. 隔离性
+
+* Docker容器的隔离性使得多个容器可以在同一主机上运行，彼此之间互不干扰。每个容器都有自己独立的文件系统、网络接口和进程空间，这有助于提高系统的安全性和稳定性。
+
+#### 3. 可移植性
+
+* 只要安装了Docker引擎的地方，都可以运行Docker容器。容器可以在本地开发环境中构建，然后轻松迁移到云环境中运行，大大提高了应用程序的可移植性。
+
+#### 4. 高效的资源利用
+
+* 与传统的虚拟机（VM）相比，Docker容器更加轻量级。容器共享主机的操作系统内核，只包含应用程序及所需的依赖库，启动速度快，占用资源少，能够在相同的硬件资源上运行更多的应用实例。
