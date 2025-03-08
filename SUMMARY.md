@@ -5,7 +5,8 @@
 ## BLOG
 
 * [Spring](blog/spring.md)
-* [SpringBoot](blog/springboot.md)
+* [SpringBoot](blog/springboot/README.md)
+  * [SpringBoot 配置文件](blog/springboot/springboot-pei-zhi-wen-jian.md)
 * [SpringCloud](blog/springcloud.md)
 * [Netty](blog/netty.md)
 * [其它](blog/other.md)
