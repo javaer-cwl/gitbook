@@ -21,9 +21,7 @@ layout:
 
 # 🍈 Hello
 
-Welcome to the GitBook Starter Template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
-
-You'll see some of the best parts of GitBook in action — and find help on how you can turn this template into your own.
+欢迎你来到 "**实习两年半**"！我是一位热爱Java开发的程序员，非常开心能在这里和你相遇！这个网站记录了我在Java学习道路上的每一步，有成功的喜悦，也有遇到难题时的困惑。我希望通过分享这些笔记，能和你一起交流、一起进步，让我们的Java学习之旅更加有趣和充实！
 
 ### Jump right in
 
