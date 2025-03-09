@@ -1,4 +1,4 @@
-# 一、 安装
+# 一、安装
 
 ### **一、Windows 系统安装 Docker**
 
@@ -130,7 +130,7 @@ curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 
 #### 3. 验证
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **五、验证 Docker 是否正常工作**
 
