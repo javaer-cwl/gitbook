@@ -1,6 +1,7 @@
 # Table of contents
 
-* [🍈 《码农浮生自嘲赋》](README.md)
+* [🌿 《码农浮生自嘲赋》](README.md)
+* [☘️ 《钓客空军自嘲谣》](diao-ke-kong-jun-zi-chao-yao.md)
 
 ## BLOG
 
