@@ -23,6 +23,16 @@ layout:
 
 &#x20;       欢迎你来到 "**实习两年半**"！我是一位热爱Java开发的程序员，非常开心能在这里和你相遇！这个网站记录了我在Java学习道路上的每一步，有成功的喜悦，也有遇到难题时的困惑。我希望通过分享这些笔记，能和你一起交流、一起进步，让我们的Java学习之旅更加有趣和充实！
 
-### Jump right in
+## 打油诗
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Create your first site</td><td></td><td></td><td><a href="blog/spring.md">spring.md</a></td></tr><tr><td><strong>Basics</strong></td><td>Learn the basics of GitBook</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Publish your docs</strong></td><td>Share your docs online</td><td></td><td></td><td><a href="blog/springboot/">springboot</a></td></tr></tbody></table>
+十年生死两茫茫，写程序，到天亮。
+
+千行代码，Bug何处藏。
+
+纵使上线又怎样，朝令改，夕断肠。
+
+领导每天新想法，天天改，日日忙。
+
+相顾无言，惟有泪千行。
+
+每晚灯火阑珊处，程序员，加班狂。
