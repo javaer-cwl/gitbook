@@ -26,6 +26,7 @@
   * [五、DockerFile实战](tool/docker/wu-dockerfile-shi-zhan.md)
   * [六、Docker-Compose](tool/docker/liu-dockercompose.md)
   * [七、Docker-Compose 实战](tool/docker/qi-dockercompose-shi-zhan.md)
+  * [八、Docker-Compose 模板](tool/docker/ba-dockercompose-mu-ban.md)
 * [🐬 Nginx](tool/nginx.md)
 * [🔥 Redis](tool/redis/README.md)
   * [一、安装](tool/redis/yi-an-zhuang.md)
