@@ -6,7 +6,7 @@
 ## BLOG
 
 * [🧊 Spring](blog/spring/README.md)
-  * [Spring 事务](blog/spring/spring-shi-wu.md)
+  * [Spring 事务机制](blog/spring/spring-shi-wu-ji-zhi.md)
 * [🐌 SpringBoot](blog/springboot/README.md)
   * [SpringBoot 配置文件](blog/springboot/springboot-pei-zhi-wen-jian.md)
   * [@Async 异步编程](blog/springboot/async-yi-bu-bian-cheng.md)
