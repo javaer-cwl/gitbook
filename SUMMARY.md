@@ -12,6 +12,7 @@
   * [@Async 异步编程](blog/springboot/async-yi-bu-bian-cheng.md)
   * [WebSocket 支持](blog/springboot/websocket-zhi-chi.md)
   * [SpringBoot 循环依赖](blog/springboot/springboot-xun-huan-yi-lai.md)
+  * [SpringBoot Starter](blog/springboot/springboot-starter.md)
 * [🏹 SpringCloud](blog/springcloud.md)
 * [🎣 Netty](blog/netty.md)
 * [🥬 其它](blog/other.md)
