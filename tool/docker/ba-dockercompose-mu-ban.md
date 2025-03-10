@@ -25,7 +25,7 @@ networks:
 
 ## 2. MYSQL
 
-```
+```docker
 version: '3.8'
 
 services:
@@ -49,4 +49,29 @@ volumes:
 
 networks:
   mysql_network:  # 定义自定义网络
+```
+
+## 3. Redis
+
+```docker
+version: '3.8'
+
+services:
+  redis:
+    image: redis:latest  # 使用最新版本的 Redis 镜像
+    container_name: redis_container  # 容器名称
+    ports:
+      - "6379:6379"  # 将容器的 6379 端口映射到主机的 6379 端口
+    volumes:
+      - redis_data:/data  # 持久化 Redis 数据
+      - ./redis.conf:/usr/local/etc/redis/redis.conf  # 挂载自定义的 Redis 配置文件
+    command: redis-server /usr/local/etc/redis/redis.conf  # 使用自定义配置文件启动 Redis
+    networks:
+      - redis_network  # 使用自定义网络
+
+volumes:
+  redis_data:  # 定义数据卷，用于持久化 Redis 数据
+
+networks:
+  redis_network:  # 定义自定义网络
 ```
