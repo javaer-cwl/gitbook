@@ -38,3 +38,11 @@
 * [🥝 MYSQL](tool/mysql.md)
 * [🌴 Kafka](tool/kafka.md)
 * [⛷️ MongoDB](tool/mongodb.md)
+
+## 公考
+
+* [🎓 行测](gong-kao/xing-ce/README.md)
+  * [一、言语理解](gong-kao/xing-ce/yi-yan-yu-li-jie.md)
+  * [二、判断推理](gong-kao/xing-ce/er-pan-duan-tui-li.md)
+  * [三、资料分析](gong-kao/xing-ce/san-zi-liao-fen-xi.md)
+* [🥇 申论](gong-kao/shen-lun.md)
