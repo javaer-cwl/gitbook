@@ -1,6 +1,2 @@
----
-icon: network-wired
----
-
-# MongoDB
+# ⛷️ MongoDB
 

@@ -1,6 +1,2 @@
----
-icon: monero
----
-
-# SpringCloud
+# 🏹 SpringCloud
 

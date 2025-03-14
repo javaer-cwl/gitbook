@@ -1,5 +1,4 @@
 ---
-icon: hand-wave
 cover: >-
   https://images.unsplash.com/photo-1739715640692-22ef6a326271?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE1MTEzMzF8&ixlib=rb-4.0.3&q=85
 coverY: 0
@@ -19,7 +18,7 @@ layout:
     visible: true
 ---
 
-# 🌿 《码农浮生自嘲赋》
+# 🌿 《码农浮生赋》
 
 十年寒窗苦作舟，\
 敲键盘，夜未央。\

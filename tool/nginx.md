@@ -1,5 +1,4 @@
 ---
-icon: at
 coverY: 0
 ---
 

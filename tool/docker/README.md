@@ -1,8 +1,4 @@
----
-icon: pen-to-square
----
-
-# Docker
+# 🍞 Docker
 
 
 

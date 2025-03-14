@@ -1,8 +1,4 @@
----
-icon: markdown
----
-
-# Redis
+# 🔥 Redis
 
 ## Redis：高性能的内存数据库
 
