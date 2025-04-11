@@ -1,6 +1,6 @@
 # 一、安装
 
-## docker-compose安装
+## Docker安装
 
 ### 1. docker-compose.yml文件
 
